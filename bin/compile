@@ -10,10 +10,10 @@ mount
 
 df
 
-ls -la /app/slug-compiler
-ls -ls /app/conf
-ls -la /app/lib
-cat /app/Dockerfile
+ls -la /app/slug-compiler/bin
+ls -la /app/slug-compiler/lib
+cat /app/conf/host_id_rsa
+cat /app/lib/*.rb
 
 id
 
