@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo $@
+
+whoami
+
+id
+
+ls -ld $1
+ls -ld $2
+
+exit 1
