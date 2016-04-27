@@ -4,6 +4,14 @@ echo $@
 
 whoami
 
+getent passwd
+
+mount
+
+df
+
+ls -lR /app
+
 id
 
 ls -ld $1
