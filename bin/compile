@@ -10,49 +10,10 @@ mount
 
 df
 
-echo "=== bleed ==="
-cat /app/bin/bleed
-echo "============="
-
-echo "=== compile ==="
-cat /app/bin/compile
-echo "============="
-
-echo "=== cycle ==="
-cat /app/bin/cycle
-echo "============="
-
-echo "=== deploy ==="
-cat /app/bin/deploy
-echo "============="
-
-echo "=== detect ==="
-cat /app/bin/detect
-echo "============="
-
-echo "=== monitor ==="
-cat /app/bin/monitor
-echo "============="
-
-echo "=== receive ==="
-cat /app/bin/receive
-echo "============="
-
-echo "=== receive_untrusted ==="
-cat /app/bin/receive_untrusted
-echo "============="
-
-echo "=== release ==="
-cat /app/bin/release
-echo "============="
-
-echo "=== vendor-libraries ==="
-cat /app/bin/vendor-libraries
-echo "============="
-
-echo "=== vendor-slugc ==="
-cat /app/bin/vendor-slugc
-echo "============="
+ls -la /app/slug-compiler
+ls -ls /app/conf
+ls -la /app/lib
+cat /app/Dockerfile
 
 id
 
