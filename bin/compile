@@ -4,11 +4,8 @@ echo $@
 
 whoami
 
-getent passwd
-
-mount
-
-df
+which gem
+gem install scss_lint
 
 ls -l /app/tmp
 cat /app/tmp/build_info.json
